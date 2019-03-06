@@ -7,5 +7,4 @@ ENV LDAP_DOMAIN="18f.gsa.gov"
 ARG LDAP_ADMIN_PASSWORD
 ENV LDAP_ADMIN_PASSWORD=$LDAP_ADMIN_PASSWORD
 
-RUN mkdir -p /container/service/slapd/assets/config/bootstrap/ldif/custom
 COPY users/ /container/service/slapd/assets/config/bootstrap/ldif/custom/
