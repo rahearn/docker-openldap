@@ -1,4 +1,4 @@
-FROM osixia/openldap:1.2.3
+FROM osixia/openldap:1.2.4
 MAINTAINER Ryan Ahearn <ryan.ahearn@gsa.gov>
 
 ENV LDAP_ORGANISATION="18F"
