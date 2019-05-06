@@ -1,0 +1,14 @@
+dn: uid=admin,dc=18f,dc=gsa,dc=gov
+uid: admin
+cn: admin
+sn: user
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+loginShell: /bin/bash
+homeDirectory: /home/admin
+uidNumber: 1501
+gidNumber: 20
+userPassword: {SSHA}cewtuw47vM0joDlGUWkT6XS07fL0BUJ/
+mail: ryan.ahearn+admin@gsa.gov
+gecos: Admin User
