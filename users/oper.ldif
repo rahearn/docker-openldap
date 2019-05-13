@@ -1,0 +1,14 @@
+dn: uid=oper,dc=18f,dc=gsa,dc=gov
+uid: oper
+cn: system
+sn: operator
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+loginShell: /bin/bash
+homeDirectory: /home/oper
+uidNumber: 2501
+gidNumber: 20
+userPassword: {SSHA}z/bX86PfnBHIouED75xU/4m7d4ZO6fQe
+mail: ryan.ahearn+oper@gsa.gov
+gecos: System Operator

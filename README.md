@@ -23,3 +23,8 @@ Basic Search
 * `-b` -> what to search for
 * `-D` -> user running search
 * `-W` -> prompt for password (use `-w <PASSWORD>` to specify inline)
+
+Generate User Password
+----------------------
+
+`slappasswd -u -s <PASSWORD>` _or_ `slappasswd -u`
