@@ -1,0 +1,14 @@
+dn: uid=rnahrn,dc=18f,dc=gsa,dc=gov
+uid: rnahrn
+cn: ryan
+sn: ahearn
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+loginShell: /bin/bash
+homeDirectory: /home/rnahrn
+uidNumber: 3501
+gidNumber: 20
+userPassword: {SSHA}ZGzbwTMY/m2fuS+j1SMnxySxLLm4KFYA
+mail: ryan.c.ahearn@gmail.com
+gecos: Ryan Ahearn
